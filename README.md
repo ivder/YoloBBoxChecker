@@ -1,12 +1,12 @@
 # YoloBBoxChecker
-Program to extract value from YOLO format data text file and draw a bounding box to clean images.
+Program to extract value from YOLO format data text file and draw a bounding box to clean images. This is the reversed version of common Bounding Box labelling tool whereas this program will draw a bounding box from YOLO dataset (clean image + text file). 
 
 # Purpose
 What if somebody annotates the dataset and you want to check whether they draw the bounding box correctly or not?
 
-YOLO will only accept a clean image with its bounding box information stored in text file. 
+YOLO only accepts a clean image with its bounding box information stored in text file. 
 
-Use this program to check whether the bounding box is drawn correctly or not. It will read the image and text file and convert the value to produce **xmin,ymin,xmax,ymax** of the bounding box and draw it to the images.
+Use this program to check whether the bounding box is drawn correctly or not during data annotation. It will read the image and text file and convert the value to produce **xmin,ymin,xmax,ymax** of the bounding box and draw it to the images.
 
 # Usage
  - Store the dataset (images and text files) to **dataset/** folder
