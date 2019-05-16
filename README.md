@@ -19,8 +19,8 @@ Yolo format data text file + Clean Image dataset
 0 0.3421875 0.561111111111 0.034375 0.114814814815
 0 0.417708333333 0.609259259259 0.0395833333333 0.0740740740741
 ```
-![clean](https://i.ibb.co/PgqBznY/1290831116.jpg)
+<img src="https://i.ibb.co/PgqBznY/1290831116.jpg" width="540">
 
 **Result :**
 
-![result](https://i.ibb.co/WW5hdGC/1290831116.jpg)
+<img src="https://i.ibb.co/WW5hdGC/1290831116.jpg" width="540">
