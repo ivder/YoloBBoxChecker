@@ -50,7 +50,7 @@ for txt_name in txt_list:
     print("Output:" + img_outpath)
 
     """ Convert YOLO format to get xmin,ymin,xmax,ymax """ 
-    lines = txt_file.read().split('\r\n')   #for ubuntu, use "\r\n" instead of "\n"
+    lines = txt_file.read().splitlines()  
     for idx, line in enumerate(lines):
         value = line.split()
         x=y=w=h=cls= None
